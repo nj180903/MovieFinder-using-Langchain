@@ -8,28 +8,63 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from core.movie_manager import MovieManager, MovieManagerConfig
 
+# Try importing setup script
+try:
+    from setup import create_vector_store, verify_vector_store
+except ImportError:
+    st.error("❌ setup.py not found or invalid!")
+    st.stop()
+
 # Configuration
+VECTOR_STORE_PATH = './movie_store_vetcor/'
+COLLECTION_NAME = 'imdb_movie'
+
 DEFAULT_CONFIG = MovieManagerConfig(
-    vector_store_path='./movie_store_vetcor/',
-    collection_name='imdb_movie',
+    vector_store_path=VECTOR_STORE_PATH,
+    collection_name=COLLECTION_NAME,
     enable_logging=True,
     max_results=10,
     score_threshold=0.5
 )
 
+def auto_run_setup():
+    """Automatically run setup phase if vector store is missing"""
+    if not os.path.exists(VECTOR_STORE_PATH):
+        st.warning("⚠️ Vector store not found. Running setup now...")
+        with st.spinner("🔧 Setting up vector store..."):
+            success = create_vector_store(
+                vector_store_path=VECTOR_STORE_PATH,
+                collection_name=COLLECTION_NAME,
+                force_rebuild=False
+            )
+            if success:
+                verified = verify_vector_store(
+                    vector_store_path=VECTOR_STORE_PATH,
+                    collection_name=COLLECTION_NAME
+                )
+                if verified:
+                    st.success("✅ Setup completed and verified successfully!")
+                else:
+                    st.error("❌ Vector store verification failed.")
+                    st.stop()
+            else:
+                st.error("❌ Setup failed. Check setup.py or logs.")
+                st.stop()
+
 def main():
-    """Simple Streamlit app with input and output"""
-    # Set page config
+    """Streamlit app"""
     st.set_page_config(
         page_title="Movie Finder - Simple Interface",
         page_icon="🎬",
         layout="wide"
     )
-    
-    # Header
+
     st.title("🎬 Movie Finder - Simple Interface")
     st.markdown("Enter your movie query and get recommendations")
-    
+
+    # Run setup if needed
+    auto_run_setup()
+
     # Input section
     st.header("📝 Input")
     user_query = st.text_area(
@@ -37,27 +72,15 @@ def main():
         placeholder="e.g., 'Find me action movies with Tom Cruise'",
         height=100
     )
-    
-    # Process button
+
     if st.button("🔍 Search Movies", type="primary"):
         if user_query:
-            # Output section
             st.header("📋 Output")
-            
             with st.spinner("Processing your query..."):
                 try:
-                    # Initialize movie manager
                     movie_manager = MovieManager(DEFAULT_CONFIG)
                     
-                    # Check if system is ready
-                    if not movie_manager.check_prerequisites()[0]:
-                        st.error("❌ System not ready. Please run setup.py first!")
-                        st.info("Run: `python setup.py` in the pls directory")
-                        return
-                    
-                    # Initialize the system
                     if movie_manager.initialize():
-                        # Process the query
                         result = movie_manager.process_user_query(user_query)
                         
                         if result.success:
@@ -65,7 +88,6 @@ def main():
                             st.markdown("### 🎬 Movie Recommendations:")
                             st.markdown(result.message)
                             
-                            # Show some metadata
                             col1, col2 = st.columns(2)
                             with col1:
                                 st.metric("⏱️ Query Time", f"{result.query_time:.2f}s")
@@ -77,10 +99,8 @@ def main():
                                 st.error(f"Details: {result.error_details}")
                     else:
                         st.error("❌ Failed to initialize the movie system")
-                        
                 except Exception as e:
                     st.error(f"❌ An error occurred: {str(e)}")
-                    st.error("Please make sure you have run setup.py first!")
         else:
             st.warning("⚠️ Please enter a movie query")
 
