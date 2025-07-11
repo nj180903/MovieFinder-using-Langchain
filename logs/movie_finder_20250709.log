@@ -1,0 +1,377 @@
+2025-07-09 12:22:33,808 - __main__ - INFO - 🔧 Building test vector store...
+2025-07-09 12:22:33,824 - __main__ - ERROR - ❌ Vector store building failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-07-09 12:22:33,825 - __main__ - ERROR - Test execution failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-07-09 12:26:48,003 - __main__ - INFO - 🔧 Building test vector store...
+2025-07-09 12:27:21,250 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-09 12:27:28,844 - core.vector_store - INFO - ✅ Vector store built successfully with 10 documents
+2025-07-09 12:27:28,845 - __main__ - INFO - ✅ Test vector store built successfully with 10 movies
+2025-07-09 12:27:28,845 - __main__ - INFO - 📁 Vector store saved to: ./test_movie_vectors
+2025-07-09 12:27:28,846 - __main__ - INFO - 🗂️ Collection name: test_movies
+2025-07-09 12:27:28,846 - __main__ - INFO - 🔄 Loading existing test vector store...
+2025-07-09 12:27:31,761 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 12:27:32,334 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 12:27:32,367 - core.vector_store - INFO - ✅ Metadata index reconstructed with 10 entries
+2025-07-09 12:27:32,388 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 12:27:32,391 - __main__ - INFO - ✅ Test vector store loaded successfully
+2025-07-09 12:27:32,393 - core.vector_store - INFO - 🔍 Performing semantic search for: action movies
+2025-07-09 12:27:32,583 - core.vector_store - INFO - ✅ Found 6 relevant movies as semantic
+2025-07-09 12:27:32,766 - core.vector_store - INFO - ✅ Found 6 relevant movies
+2025-07-09 12:27:32,912 - __main__ - INFO - 🔧 Building test vector store...
+2025-07-09 12:27:36,265 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-09 12:27:36,707 - core.vector_store - INFO - ✅ Vector store built successfully with 10 documents
+2025-07-09 12:27:36,709 - __main__ - INFO - ✅ Test vector store built successfully with 10 movies
+2025-07-09 12:27:36,710 - __main__ - INFO - 📁 Vector store saved to: ./test_movie_vectors
+2025-07-09 12:27:36,710 - __main__ - INFO - 🗂️ Collection name: test_movies
+2025-07-09 12:27:36,712 - __main__ - INFO - 🔄 Loading existing test vector store...
+2025-07-09 12:27:39,623 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 12:27:39,754 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 12:27:39,785 - core.vector_store - INFO - ✅ Metadata index reconstructed with 10 entries
+2025-07-09 12:27:39,786 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 12:27:39,787 - __main__ - INFO - ✅ Test vector store loaded successfully
+2025-07-09 12:27:39,790 - core.vector_store - INFO - 🔍 Performing semantic search for: science fiction movies
+2025-07-09 12:27:39,844 - core.vector_store - INFO - ✅ Found 4 relevant movies as semantic
+2025-07-09 12:27:39,976 - core.vector_store - INFO - ✅ Found 4 relevant movies
+2025-07-09 12:27:40,015 - core.vector_store - INFO - 🔍 Performing semantic search for: movies by Christopher Nolan
+2025-07-09 12:27:40,172 - core.vector_store - INFO - ✅ Found 4 relevant movies as semantic
+2025-07-09 12:27:40,198 - core.vector_store - INFO - ✅ Found 4 relevant movies
+2025-07-09 12:27:40,228 - core.vector_store - INFO - 🔍 Performing semantic search for: crime drama films
+2025-07-09 12:27:40,357 - core.vector_store - INFO - ✅ Found 4 relevant movies as semantic
+2025-07-09 12:27:40,433 - core.vector_store - INFO - ✅ Found 4 relevant movies
+2025-07-09 12:27:40,440 - core.vector_store - INFO - 🔍 Performing semantic search for: high rated movies
+2025-07-09 12:27:40,709 - core.vector_store - INFO - ✅ Found 4 relevant movies as semantic
+2025-07-09 12:27:40,772 - core.vector_store - INFO - ✅ Found 4 relevant movies
+2025-07-09 12:46:52,048 - core.vector_store - INFO - 🚀 PHASE 1: Creating Vector Store
+2025-07-09 12:46:52,049 - core.vector_store - INFO - ==================================================
+2025-07-09 12:46:52,050 - core.vector_store - INFO - 🔧 Building vector store...
+2025-07-09 12:47:10,686 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-09 12:47:45,562 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 documents
+2025-07-09 12:47:45,564 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 movies
+2025-07-09 12:47:45,564 - core.vector_store - INFO - 📁 Vector store saved to: ./movie_store_vetcor/
+2025-07-09 12:47:45,565 - core.vector_store - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 12:47:45,565 - core.vector_store - INFO - ✅ PHASE 1 COMPLETED: Vector store created successfully
+2025-07-09 12:47:45,565 - core.vector_store - INFO - 📁 Path: ./movie_store_vetcor/
+2025-07-09 12:47:45,565 - core.vector_store - INFO - 🗂️ Collection: imdb_movie
+2025-07-09 12:47:45,565 - core.vector_store - INFO - ==================================================
+2025-07-09 12:47:45,573 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 12:47:48,502 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 12:47:48,691 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 12:47:49,004 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 12:47:49,007 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 12:47:49,008 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 12:47:49,011 - core.vector_store - INFO - 🔍 Performing semantic search for: action movies
+2025-07-09 12:47:49,065 - core.vector_store - INFO - ✅ Found 6 relevant movies as semantic
+2025-07-09 12:47:49,103 - core.vector_store - INFO - ✅ Found 6 relevant movies
+2025-07-09 13:03:02,033 - core.movie_manager - INFO - 🎬 MovieManager initialized
+2025-07-09 13:03:02,034 - core.movie_manager - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:03:02,034 - core.movie_manager - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:03:02,050 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:03:24,034 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:03:25,290 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:03:25,706 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:03:25,710 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:03:25,711 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:03:25,719 - core.movie_manager - INFO - 🚀 Initializing MovieManager system...
+2025-07-09 13:03:25,719 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:03:28,751 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:03:28,938 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:03:29,271 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:03:29,273 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:03:29,274 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:03:29,275 - core.movie_finder - INFO - 🎬 PHASE 2: MovieFinder initialized for processing
+2025-07-09 13:03:29,276 - core.movie_finder - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:03:29,277 - core.movie_finder - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:03:29,277 - core.movie_finder - INFO - 🚀 Initializing MovieFinder System for Processing...
+2025-07-09 13:03:29,278 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-09 13:03:29,732 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-09 13:03:29,735 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-09 13:03:29,897 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-09 13:03:29,898 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-09 13:03:29,899 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-09 13:03:29,900 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-09 13:03:29,913 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-09 13:03:29,913 - core.movie_finder - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:03:32,988 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:03:33,124 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:03:33,474 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:03:33,478 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:03:33,479 - core.movie_finder - INFO - ✅ Vector store loaded for processing
+2025-07-09 13:03:33,480 - core.movie_manager - INFO - ✅ MovieManager initialized successfully in 4.20s
+2025-07-09 13:08:45,362 - core.movie_manager - INFO - 🎬 MovieManager initialized
+2025-07-09 13:08:45,364 - core.movie_manager - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:08:45,365 - core.movie_manager - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:08:45,366 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:09:07,807 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:09:09,818 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:09:10,284 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:09:10,286 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:09:10,287 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:09:10,288 - core.movie_manager - INFO - 🚀 Initializing MovieManager system...
+2025-07-09 13:09:10,288 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:09:13,318 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:09:13,492 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:09:13,802 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:09:13,805 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:09:13,806 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:09:13,808 - core.movie_finder - INFO - 🎬 PHASE 2: MovieFinder initialized for processing
+2025-07-09 13:09:13,810 - core.movie_finder - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:09:13,811 - core.movie_finder - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:09:13,812 - core.movie_finder - INFO - 🚀 Initializing MovieFinder System for Processing...
+2025-07-09 13:09:13,814 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-09 13:09:14,331 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-09 13:09:14,332 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-09 13:09:14,380 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-09 13:09:14,386 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-09 13:09:14,389 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-09 13:09:14,391 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-09 13:09:14,413 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-09 13:09:14,416 - core.movie_finder - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:09:17,389 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:09:17,534 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:09:17,891 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:09:17,893 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:09:17,894 - core.movie_finder - INFO - ✅ Vector store loaded for processing
+2025-07-09 13:09:17,895 - core.movie_manager - INFO - ✅ MovieManager initialized successfully in 4.09s
+2025-07-09 13:09:17,895 - core.movie_manager - INFO - 🔍 Processing user query: show me action movie
+2025-07-09 13:09:17,896 - core.movie_finder - INFO - 🎬 Processing query: show me action movie
+2025-07-09 13:09:17,896 - core.movie_finder - INFO - 🎯 Selected search strategy: hybrid
+2025-07-09 13:09:17,896 - core.movie_finder - INFO - 🔄 Performing hybrid search...
+2025-07-09 13:09:17,897 - agents.semantic_agent - INFO - 🔍 Processing semantic query: show me action movie
+2025-07-09 13:09:18,749 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-09 13:09:20,624 - core.movie_finder - ERROR - ❌ Hybrid search error: Failed to parse FilterSchema from completion {"genre": ["Action"], "actors": [], "keywords": [], "director": null, "year_min": null, "year_max": null, "rating_min": null, "rating_max": null, "ranking_field": "IMDB_Rating", "sort_order": "desc", "limit": 10}. Got: 1 validation error for FilterSchema
+director
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+2025-07-09 13:09:20,681 - core.movie_finder - ERROR - Traceback (most recent call last):
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\env\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 28, in _parse_obj
+    return self.pydantic_object.model_validate(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\env\Lib\site-packages\pydantic\main.py", line 705, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        obj, strict=strict, from_attributes=from_attributes, context=context, by_alias=by_alias, by_name=by_name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for FilterSchema
+director
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\pls\core\movie_finder.py", line 260, in _hybrid_search
+    segment_result = self.chains['segment'].invoke({
+        "query": f"{context}\nCurrent query: {query}"
+    })
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\env\Lib\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\env\Lib\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\env\Lib\site-packages\langchain\chains\llm.py", line 128, in _call
+    return self.create_outputs(response)[0]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\env\Lib\site-packages\langchain\chains\llm.py", line 287, in create_outputs
+    self.output_key: self.output_parser.parse_result(generation),
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\env\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 62, in parse_result
+    return self._parse_obj(json_object)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\env\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 35, in _parse_obj
+    raise self._parser_exception(e, obj) from e
+langchain_core.exceptions.OutputParserException: Failed to parse FilterSchema from completion {"genre": ["Action"], "actors": [], "keywords": [], "director": null, "year_min": null, "year_max": null, "rating_min": null, "rating_max": null, "ranking_field": "IMDB_Rating", "sort_order": "desc", "limit": 10}. Got: 1 validation error for FilterSchema
+director
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+
+2025-07-09 13:09:20,691 - core.movie_finder - INFO - ✅ Query processed successfully using hybrid strategy
+2025-07-09 13:17:27,554 - core.movie_manager - INFO - 🎬 MovieManager initialized
+2025-07-09 13:17:27,556 - core.movie_manager - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:17:27,556 - core.movie_manager - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:17:27,557 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:17:52,809 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:17:54,056 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:17:54,367 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:17:54,370 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:17:54,370 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:17:54,371 - core.movie_manager - INFO - 🚀 Initializing MovieManager system...
+2025-07-09 13:17:54,372 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:17:57,294 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:17:57,418 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:17:57,723 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:17:57,727 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:17:57,727 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:17:57,728 - core.movie_finder - INFO - 🎬 PHASE 2: MovieFinder initialized for processing
+2025-07-09 13:17:57,729 - core.movie_finder - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:17:57,729 - core.movie_finder - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:17:57,730 - core.movie_finder - INFO - 🚀 Initializing MovieFinder System for Processing...
+2025-07-09 13:17:57,730 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-09 13:17:58,496 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-09 13:17:58,500 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-09 13:17:58,694 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-09 13:17:58,778 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-09 13:17:58,781 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-09 13:17:58,782 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-09 13:17:58,834 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-09 13:17:58,852 - core.movie_finder - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:18:01,747 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:18:01,895 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:18:02,195 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:18:02,198 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:18:02,199 - core.movie_finder - INFO - ✅ Vector store loaded for processing
+2025-07-09 13:18:02,200 - core.movie_manager - INFO - ✅ MovieManager initialized successfully in 4.47s
+2025-07-09 13:18:02,200 - core.movie_manager - INFO - 🔍 Processing user query: hot movie
+2025-07-09 13:18:02,201 - core.movie_finder - INFO - 🎬 Processing query: hot movie
+2025-07-09 13:18:02,202 - core.movie_finder - INFO - 🎯 Selected search strategy: hybrid
+2025-07-09 13:18:02,202 - core.movie_finder - INFO - 🔄 Performing hybrid search...
+2025-07-09 13:18:02,203 - agents.semantic_agent - INFO - 🔍 Processing semantic query: hot movie
+2025-07-09 13:18:02,810 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-09 13:18:04,798 - core.movie_finder - ERROR - ❌ Hybrid search error: 'Chroma' object has no attribute 'hybrid_search'
+2025-07-09 13:18:04,802 - core.movie_finder - ERROR - Traceback (most recent call last):
+  File "C:\Users\Exp-Asjadullah\Downloads\movie_new\pls\core\movie_finder.py", line 281, in _hybrid_search
+    search_results = vector_store.hybrid_search(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Chroma' object has no attribute 'hybrid_search'
+
+2025-07-09 13:18:04,803 - core.movie_finder - INFO - ✅ Query processed successfully using hybrid strategy
+2025-07-09 13:23:38,767 - core.movie_manager - INFO - 🎬 MovieManager initialized
+2025-07-09 13:23:38,782 - core.movie_manager - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:23:38,782 - core.movie_manager - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:23:38,786 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:24:03,958 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:24:05,046 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:24:05,448 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:24:05,453 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:24:05,454 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:24:05,455 - core.movie_manager - INFO - 🚀 Initializing MovieManager system...
+2025-07-09 13:24:05,457 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:24:08,591 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:24:08,965 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:24:09,293 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:24:09,296 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:24:09,297 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:24:09,298 - core.movie_finder - INFO - 🎬 PHASE 2: MovieFinder initialized for processing
+2025-07-09 13:24:09,298 - core.movie_finder - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:24:09,299 - core.movie_finder - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:24:09,300 - core.movie_finder - INFO - 🚀 Initializing MovieFinder System for Processing...
+2025-07-09 13:24:09,301 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-09 13:24:09,845 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-09 13:24:09,847 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-09 13:24:09,903 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-09 13:24:09,915 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-09 13:24:09,937 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-09 13:24:09,942 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-09 13:24:09,960 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-09 13:24:09,965 - core.movie_finder - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:24:13,009 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:24:13,112 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:24:13,416 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:24:13,418 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:24:13,419 - core.movie_finder - INFO - ✅ Vector store loaded for processing
+2025-07-09 13:24:13,420 - core.movie_manager - INFO - ✅ MovieManager initialized successfully in 4.12s
+2025-07-09 13:24:13,420 - core.movie_manager - INFO - 🔍 Processing user query: hi
+2025-07-09 13:24:13,421 - core.movie_finder - INFO - 🎬 Processing query: hi
+2025-07-09 13:24:13,421 - core.movie_finder - INFO - 🎯 Selected search strategy: hybrid
+2025-07-09 13:24:13,422 - core.movie_finder - INFO - 🔄 Performing hybrid search...
+2025-07-09 13:24:13,423 - agents.semantic_agent - INFO - 🔍 Processing semantic query: hi
+2025-07-09 13:24:15,811 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-09 13:24:17,078 - core.movie_finder - ERROR - ❌ JSON extraction error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-07-09 13:24:17,078 - core.movie_finder - ERROR - Raw content: {'query': 'Previous conversation:\nuser: hi\n\nCurrent query: hi', 'text': FilterSchema(genre=[], actors=[], keywords=[], director=None, year_min=None, year_max=None, rating_min=None, rating_max=None, ranking_field='IMDB_Rating', sort_order='desc', limit=10)}
+2025-07-09 13:24:17,079 - core.movie_finder - INFO - 🔍 Performing semantic search...
+2025-07-09 13:24:17,080 - agents.semantic_agent - INFO - 🔍 Processing semantic query: hi
+2025-07-09 13:24:17,826 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-09 13:24:17,827 - core.movie_finder - INFO - 📝 Contextual query: Given only "hi" as the query,  a semantic sentence cannot be created that meaningfully describes a movie.  More information is needed from the user.
+2025-07-09 13:24:17,827 - core.movie_finder - INFO - 🎯 Search strategy: general
+2025-07-09 13:24:17,831 - core.vector_store - INFO - 🔍 Performing semantic search for: Given only "hi" as the query,  a semantic sentence cannot be created that meaningfully describes a movie.  More information is needed from the user.
+2025-07-09 13:24:17,880 - core.vector_store - INFO - ✅ Found 20 relevant movies as semantic
+2025-07-09 13:24:18,109 - core.vector_store - INFO - ✅ Found 20 relevant movies
+2025-07-09 13:24:18,120 - core.movie_finder - INFO - 📝 Generating summary...
+2025-07-09 13:24:20,416 - core.movie_finder - INFO - ✅ Summary generated successfully
+Hey there!  So you just said "hi," which is a great start!  Unfortunately, "hi" doesn't give me much to go on in terms of recommending movies. To help me find the perfect films for you, could you tell me a bit more about what you're looking for?  For example:
+
+* **What kind of movies do you usually enjoy?** (e.g., action, comedy, romance, thriller, documentary)
+* **Are there any specific actors or directors you like?**
+* **Is there a particular theme or topic you're interested in?** (e.g., social issues, relationships, historical events)
+* **Do you have a preferred rating or year range?**
+
+The movies I found so far (Crash, Lost in Translation, and After Hours) all have a 7.7 rating and seem to share a common thread of exploring complex human relationships and societal themes, but that's based on a very vague starting point!  Give me some more information, and I'll craft a much more tailored and helpful recommendation list for you.  😊
+2025-07-09 13:24:20,419 - core.movie_finder - INFO - ✅ Semantic search completed: 10 results
+2025-07-09 13:24:20,419 - core.movie_finder - INFO - ✅ Query processed successfully using hybrid strategy
+2025-07-09 13:25:38,499 - core.movie_manager - INFO - 🎬 MovieManager initialized
+2025-07-09 13:25:38,500 - core.movie_manager - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:25:38,501 - core.movie_manager - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:25:38,502 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:25:41,387 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:25:41,650 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:25:42,097 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:25:42,100 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:25:42,101 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:25:42,103 - core.movie_manager - INFO - 🚀 Initializing MovieManager system...
+2025-07-09 13:25:42,105 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:25:45,104 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:25:45,266 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:25:45,666 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:25:45,670 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:25:45,670 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:25:45,672 - core.movie_finder - INFO - 🎬 PHASE 2: MovieFinder initialized for processing
+2025-07-09 13:25:45,672 - core.movie_finder - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-09 13:25:45,673 - core.movie_finder - INFO - 🗂️ Collection name: imdb_movie
+2025-07-09 13:25:45,673 - core.movie_finder - INFO - 🚀 Initializing MovieFinder System for Processing...
+2025-07-09 13:25:45,674 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-09 13:25:46,278 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-09 13:25:46,290 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-09 13:25:46,311 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-09 13:25:46,312 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-09 13:25:46,313 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-09 13:25:46,314 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-09 13:25:46,319 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-09 13:25:46,321 - core.movie_finder - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:25:49,645 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-09 13:25:50,353 - core.vector_store - INFO - 🔄 Reconstructing metadata index...
+2025-07-09 13:25:50,876 - core.vector_store - INFO - ✅ Metadata index reconstructed with 1000 entries
+2025-07-09 13:25:50,879 - core.vector_store - INFO - ✅ Vector store loaded successfully
+2025-07-09 13:25:50,880 - core.movie_finder - INFO - ✅ Vector store loaded for processing
+2025-07-09 13:25:50,880 - core.movie_manager - INFO - ✅ MovieManager initialized successfully in 5.21s
+2025-07-09 13:25:50,881 - core.movie_manager - INFO - 🔍 Processing user query: hot movie
+2025-07-09 13:25:50,881 - core.movie_finder - INFO - 🎬 Processing query: hot movie
+2025-07-09 13:25:50,882 - core.movie_finder - INFO - 🎯 Selected search strategy: hybrid
+2025-07-09 13:25:50,883 - core.movie_finder - INFO - 🔄 Performing hybrid search...
+2025-07-09 13:25:50,883 - agents.semantic_agent - INFO - 🔍 Processing semantic query: hot movie
+2025-07-09 13:25:51,463 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-09 13:25:53,452 - core.movie_finder - ERROR - ❌ JSON extraction error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-07-09 13:25:53,457 - core.movie_finder - ERROR - Raw content: {'query': 'Previous conversation:\nuser: hot movie\n\nCurrent query: hot movie', 'text': FilterSchema(genre=[], actors=[], keywords=['hot'], director=None, year_min=None, year_max=None, rating_min=None, rating_max=None, ranking_field='IMDB_Rating', sort_order='desc', limit=10)}
+2025-07-09 13:25:53,458 - core.movie_finder - INFO - 🔍 Performing semantic search...
+2025-07-09 13:25:53,459 - agents.semantic_agent - INFO - 🔍 Processing semantic query: hot movie
+2025-07-09 13:25:54,069 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-09 13:25:54,079 - core.movie_finder - INFO - 📝 Contextual query: Critically acclaimed or popular films currently trending, likely encompassing a variety of genres and themes. | Key themes: movie
+2025-07-09 13:25:54,080 - core.movie_finder - INFO - 🎯 Search strategy: general
+2025-07-09 13:25:54,112 - core.vector_store - INFO - 🔍 Performing semantic search for: Critically acclaimed or popular films currently trending, likely encompassing a variety of genres and themes. | Key themes: movie
+2025-07-09 13:25:54,680 - core.vector_store - INFO - ✅ Found 20 relevant movies as semantic
+2025-07-09 13:25:54,916 - core.vector_store - INFO - ✅ Found 20 relevant movies
+2025-07-09 13:25:54,918 - core.movie_finder - INFO - 📝 Generating summary...
+2025-07-09 13:25:58,512 - core.movie_finder - INFO - ✅ Summary generated successfully
+Hey there!  So you're looking for "hot movies," huh?  That's a pretty broad term! To give you the best recommendations, I need a little more information.  "Hot" can mean many things –  critically acclaimed, popular, currently trending, action-packed, romantic, or even just visually stunning.
+
+Based on your initial search, I found a few movies, but they seem to lean towards critically acclaimed and romantic rather than, say, action-packed thrillers.  Let's look at what I have:
+
+The top recommendations are *Barfi!* (2012) and *Lost in Translation* (2003).  Both are rated highly (8.1 and 7.7 respectively) and fall into the Comedy-Drama-Romance genres.
+
+* **Barfi! (2012):** Rated 8.1, this Indian film is a charming and heartwarming story about unconventional love. It's a beautiful film with great performances.  Think quirky romance with a dash of sadness.
+
+* **Lost in Translation (2003):** Rated 7.7, this film is a more subdued but equally compelling exploration of connection and loneliness in a foreign setting.  It's beautifully shot and features nuanced performances.
+
+*Guardians of the Galaxy* (2014), while also appearing in the results, is less strongly connected to the idea of "hot" as a descriptor of a romantic film. It's an action-comedy, rated 8.0 and certainly popular, but a different vibe entirely.
+
+
+To help me narrow down your search and give you more relevant suggestions, could you tell me:
+
+* **What kind of "hot" are you looking for?**  (e.g., critically acclaimed, action-packed, romantic comedy, visually stunning, currently trending, etc.)
+* **What genres do you enjoy?**
+* **Are there any specific actors or directors you prefer?**
+
+The more details you give me, the better I can tailor the recommendations to your tastes!
+2025-07-09 13:25:58,518 - core.movie_finder - INFO - ✅ Semantic search completed: 10 results
+2025-07-09 13:25:58,519 - core.movie_finder - INFO - ✅ Query processed successfully using hybrid strategy

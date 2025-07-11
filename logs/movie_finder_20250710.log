@@ -1,0 +1,44 @@
+2025-07-10 09:48:21,237 - core.movie_manager - INFO - 🎬 MovieManager initialized
+2025-07-10 09:48:21,243 - core.movie_manager - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-10 09:48:21,248 - core.movie_manager - INFO - 🗂️ Collection name: imdb_movie
+2025-07-10 09:48:21,252 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-10 09:48:21,265 - core.vector_store - ERROR - ❌ Vector store loading failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-07-10 09:48:21,269 - core.vector_store - ERROR - Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\movie_new_backup\pls\venv\Lib\site-packages\langchain_community\embeddings\huggingface.py", line 84, in __init__
+    import sentence_transformers
+ModuleNotFoundError: No module named 'sentence_transformers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\movie_new_backup\pls\core\vector_store.py", line 493, in load_existing_vector_store
+    self.vector_store = EnhancedVectorStore()
+                        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\movie_new_backup\pls\core\vector_store.py", line 24, in __init__
+    self.embeddings = HuggingFaceEmbeddings(model_name=embedding_model_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\movie_new_backup\pls\venv\Lib\site-packages\langchain_core\_api\deprecation.py", line 222, in warn_if_direct_instance
+    return wrapped(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\movie_new_backup\pls\venv\Lib\site-packages\langchain_community\embeddings\huggingface.py", line 87, in __init__
+    raise ImportError(
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+
+2025-07-10 09:53:52,390 - core.vector_store - INFO - 🚀 PHASE 1: Creating Vector Store
+2025-07-10 09:53:52,394 - core.vector_store - INFO - ==================================================
+2025-07-10 09:53:52,395 - core.vector_store - INFO - 🔧 Building vector store...
+2025-07-10 09:54:25,025 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-10 09:56:03,798 - core.movie_manager - INFO - 🎬 MovieManager initialized
+2025-07-10 09:56:03,801 - core.movie_manager - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-10 09:56:03,802 - core.movie_manager - INFO - 🗂️ Collection name: imdb_movie
+2025-07-10 09:56:03,803 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-10 09:56:22,500 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-10 10:06:45,786 - core.vector_store - INFO - 🚀 PHASE 1: Creating Vector Store
+2025-07-10 10:06:45,787 - core.vector_store - INFO - ==================================================
+2025-07-10 10:06:45,788 - core.vector_store - INFO - 🔧 Building vector store...
+2025-07-10 10:07:04,260 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-10 10:10:22,503 - core.movie_manager - INFO - 🎬 MovieManager initialized
+2025-07-10 10:10:22,515 - core.movie_manager - INFO - 📁 Vector store path: ./movie_store_vetcor/
+2025-07-10 10:10:22,519 - core.movie_manager - INFO - 🗂️ Collection name: imdb_movie
+2025-07-10 10:10:22,534 - core.vector_store - INFO - 🔄 Loading existing vector store...
+2025-07-10 10:10:44,223 - core.vector_store - INFO - 🔄 Loading existing vector store...

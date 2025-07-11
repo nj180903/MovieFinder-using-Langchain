@@ -1,0 +1,389 @@
+2025-07-05 15:05:46,274 - __main__ - INFO - 📁 Cache directory: C:\Users\ASUS\Downloads\pls\pls\cache
+2025-07-05 15:05:46,274 - __main__ - INFO - 🚀 Starting Movie Finder System initialization...
+2025-07-05 15:05:46,275 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:05:46,275 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:05:48,227 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:05:48,227 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:05:48,333 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:05:48,334 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 15:06:58,572 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 15:11:53,476 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 documents
+2025-07-05 15:11:53,485 - core.movie_finder - INFO - ✅ Vector store initialized successfully
+2025-07-05 15:11:53,486 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-05 15:11:53,488 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-05 15:11:53,488 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-05 15:11:53,535 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-05 15:11:53,539 - __main__ - INFO - 📊 System Info:
+
+🎬 Enhanced Movie Finder System Status:
+📊 Dataset: 1000 movies loaded
+🤖 LLM: ✅ Ready
+🔧 Vector Store: ✅ Ready
+🧠 Semantic Processor: ✅ Ready
+⛓️ Chains: 3 agents initialized
+💬 History: 0 messages
+📊 Available columns: Poster_Link, Series_Title, Released_Year, Certificate, Runtime, Genre, IMDB_Rating, Overview, Meta_score, Director, Star1, Star2, Star3, Star4, No_of_Votes, Gross, combined
+
+🎯 Search Strategies Available:
+- Semantic Search: Vector similarity matching
+- Filter Search: Pandas-based filtering
+- Hybrid Search: Combined semantic + filter approach
+            
+2025-07-05 15:11:53,540 - __main__ - INFO - 🧪 Testing system functionality...
+2025-07-05 15:11:53,540 - __main__ - INFO - 🔍 Testing query: 'Top 5 movies'
+2025-07-05 15:11:53,541 - core.movie_finder - INFO - 🎬 Processing query: Top 5 movies
+2025-07-05 15:11:53,542 - core.movie_finder - INFO - 🎯 Selected search strategy: hybrid
+2025-07-05 15:11:53,542 - core.movie_finder - INFO - 🔄 Performing hybrid search...
+2025-07-05 15:11:53,543 - agents.semantic_agent - INFO - 🔍 Processing semantic query: Top 5 movies
+2025-07-05 15:11:55,723 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-05 15:11:57,145 - core.movie_finder - INFO - 🔍 Performing semantic search...
+2025-07-05 15:11:57,145 - agents.semantic_agent - INFO - 🔍 Processing semantic query: Top 5 movies
+2025-07-05 15:11:59,705 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-05 15:11:59,707 - core.movie_finder - INFO - 📝 Contextual query: I need more information to fulfill this request.  "Top 5 movies" is too vague.  To create a semantic sentence that accurately reflects the user's intent, I need to know *what kind* of top 5 movies they're looking for.  For example, are they looking for:
+
+* **Top 5 highest-grossing movies of all time?**  Then the semantic sentence could be: "The five highest-grossing films of all time, spanning various genres and showcasing popular cinematic achievements."
+* **Top 5 critically acclaimed movies of...
+2025-07-05 15:11:59,708 - core.movie_finder - INFO - 🎯 Search strategy: recommendation
+2025-07-05 15:11:59,728 - core.vector_store - INFO - 🔍 Performing semantic search for: I need more information to fulfill this request.  "Top 5 movies" is too vague.  To create a semantic sentence that accurately reflects the user's intent, I need to know *what kind* of top 5 movies they're looking for.  For example, are they looking for:
+
+* **Top 5 highest-grossing movies of all time?**  Then the semantic sentence could be: "The five highest-grossing films of all time, spanning various genres and showcasing popular cinematic achievements."
+* **Top 5 critically acclaimed movies of...
+2025-07-05 15:11:59,940 - core.vector_store - INFO - ✅ Found 20 relevant movies as semantic
+2025-07-05 15:11:59,963 - core.vector_store - INFO - ✅ Found 20 relevant movies
+2025-07-05 15:11:59,963 - core.movie_finder - INFO - 📝 Generating summary...
+2025-07-05 15:12:04,311 - core.movie_finder - INFO - ✅ Summary generated successfully
+Hey there!  So you're looking for the top 5 movies, huh?  That's a pretty broad request!  To give you the best recommendations, I need a little more information.  "Top" can mean many things – highest-rated, most popular, most critically acclaimed, or even your personal favorites based on a specific genre or theme.
+
+Based on your initial query, I've pulled together five diverse films with a range of ratings and genres.  They don't necessarily represent a "top 5" list in any objective sense, as that would require a specific ranking criteria.  Here's a quick rundown:
+
+
+* **Star Wars (1977) - Rating: 8.6:** A classic action-adventure fantasy that needs no introduction.  Starring Mark Hamill, Harrison Ford, and Carrie Fisher, it's a space opera epic about good versus evil.
+
+* **The Killing (1956) - Rating: 8.0:** A gripping crime drama directed by Stanley Kubrick, featuring Sterling Hayden.  This film-noir masterpiece is known for its intricate plot and suspenseful heist.
+
+* **Judgment at Nuremberg (1961) - Rating: 8.2:** A powerful drama starring Spencer Tracy and Burt Lancaster, exploring the aftermath of World War II and the trial of Nazi war criminals.  A serious and thought-provoking choice.
+
+* **Crash (2004) - Rating: 7.7:** A more contemporary entry, this crime thriller directed by Paul Haggis examines race relations and societal issues in Los Angeles.  Features a stellar cast including Don Cheadle and Sandra Bullock.
+
+* **Lost in Translation (2003) - Rating: 7.7:** A more low-key drama/comedy directed by Sofia Coppola, starring Bill Murray and Scarlett Johansson.  This film focuses on the unlikely connection between two lonely individuals in Tokyo.
+
+
+As you can see, the selections vary widely in genre, era, and tone.  This is because your initial request was quite general. To help me narrow down your choices, could you tell me:
+
+* **What kind of movies do you enjoy?** (e.g., action, comedy, drama, sci-fi, horror)
+* **Are you looking for critically acclaimed films, popular blockbusters, or something else?**
+* **Is there a specific theme or era you're interested in?**
+
+The more details you provide, the better I can tailor the recommendations to your preferences and give you a truly "top 5" list *for you*.
+2025-07-05 15:12:04,313 - core.movie_finder - INFO - ✅ Semantic search completed: 10 results
+2025-07-05 15:12:04,314 - core.movie_finder - INFO - ✅ Query processed successfully using hybrid strategy
+2025-07-05 15:12:04,315 - __main__ - INFO - ✅ Query successful
+2025-07-05 15:12:04,316 - __main__ - INFO - 🔍 Testing query: 'Leonardo DiCaprio movies'
+2025-07-05 15:12:04,318 - core.movie_finder - INFO - 🎬 Processing query: Leonardo DiCaprio movies
+2025-07-05 15:12:04,318 - core.movie_finder - INFO - 🎯 Selected search strategy: hybrid
+2025-07-05 15:12:04,319 - core.movie_finder - INFO - 🔄 Performing hybrid search...
+2025-07-05 15:12:04,320 - agents.semantic_agent - INFO - 🔍 Processing semantic query: Leonardo DiCaprio movies
+2025-07-05 15:12:05,372 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-05 15:12:07,189 - core.movie_finder - ERROR - ❌ Hybrid search error: Failed to parse FilterSchema from completion {"genre": [], "actors": ["Leonardo DiCaprio"], "keywords": [], "director": null, "year_min": null, "year_max": null, "rating_min": null, "rating_max": null, "ranking_field": "IMDB_Rating", "sort_order": "desc", "limit": 10}. Got: 1 validation error for FilterSchema
+director
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+2025-07-05 15:12:07,223 - core.movie_finder - ERROR - Traceback (most recent call last):
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 28, in _parse_obj
+    return self.pydantic_object.model_validate(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\pydantic\main.py", line 705, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        obj, strict=strict, from_attributes=from_attributes, context=context, by_alias=by_alias, by_name=by_name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for FilterSchema
+director
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Downloads\pls\pls\core\movie_finder.py", line 201, in _hybrid_search
+    segment_result = self.chains['segment'].invoke({
+        "query": f"{context}\nCurrent query: {query}"
+    })
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain\chains\llm.py", line 128, in _call
+    return self.create_outputs(response)[0]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain\chains\llm.py", line 287, in create_outputs
+    self.output_key: self.output_parser.parse_result(generation),
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 62, in parse_result
+    return self._parse_obj(json_object)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 35, in _parse_obj
+    raise self._parser_exception(e, obj) from e
+langchain_core.exceptions.OutputParserException: Failed to parse FilterSchema from completion {"genre": [], "actors": ["Leonardo DiCaprio"], "keywords": [], "director": null, "year_min": null, "year_max": null, "rating_min": null, "rating_max": null, "ranking_field": "IMDB_Rating", "sort_order": "desc", "limit": 10}. Got: 1 validation error for FilterSchema
+director
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+
+2025-07-05 15:12:07,224 - core.movie_finder - INFO - ✅ Query processed successfully using hybrid strategy
+2025-07-05 15:12:07,225 - __main__ - WARNING - ⚠️ Query returned: ❌ An error occurred during hybrid search: Failed to parse FilterSchema from completion {"genre": [],...
+2025-07-05 15:12:07,226 - __main__ - INFO - 🔍 Testing query: 'Movies from 2010'
+2025-07-05 15:12:07,226 - core.movie_finder - INFO - 🎬 Processing query: Movies from 2010
+2025-07-05 15:12:07,228 - core.movie_finder - INFO - 🎯 Selected search strategy: filter
+2025-07-05 15:12:07,229 - core.movie_finder - INFO - 🔧 Performing filter search...
+2025-07-05 15:12:07,230 - core.movie_finder - INFO - 🔧 Generating pandas filter code...
+2025-07-05 15:12:08,924 - core.movie_finder - ERROR - ❌ Pandas code generation error: Failed to parse FilterSchema from completion {"genre": [], "actors": [], "keywords": [], "director": null, "year_min": 2010, "year_max": 2010, "rating_min": null, "rating_max": null, "ranking_field": "IMDB_Rating", "sort_order": "desc", "limit": 10}. Got: 1 validation error for FilterSchema
+director
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+2025-07-05 15:12:08,929 - core.movie_finder - ERROR - Traceback (most recent call last):
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 28, in _parse_obj
+    return self.pydantic_object.model_validate(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\pydantic\main.py", line 705, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        obj, strict=strict, from_attributes=from_attributes, context=context, by_alias=by_alias, by_name=by_name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for FilterSchema
+director
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Downloads\pls\pls\core\movie_finder.py", line 294, in _generate_pandas_code
+    segment_result = self.chains['segment'].invoke({
+        "query": f"{context}\nCurrent query: {query}"
+    })
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain\chains\llm.py", line 128, in _call
+    return self.create_outputs(response)[0]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain\chains\llm.py", line 287, in create_outputs
+    self.output_key: self.output_parser.parse_result(generation),
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 62, in parse_result
+    return self._parse_obj(json_object)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Downloads\pls\env\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 35, in _parse_obj
+    raise self._parser_exception(e, obj) from e
+langchain_core.exceptions.OutputParserException: Failed to parse FilterSchema from completion {"genre": [], "actors": [], "keywords": [], "director": null, "year_min": 2010, "year_max": 2010, "rating_min": null, "rating_max": null, "ranking_field": "IMDB_Rating", "sort_order": "desc", "limit": 10}. Got: 1 validation error for FilterSchema
+director
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+
+2025-07-05 15:12:08,930 - utils.code_executor - INFO - 🔍 Executing pandas code: filtered_df = df.head(10)...
+2025-07-05 15:12:08,949 - utils.code_executor - INFO - ✅ Filter executed successfully: 10 results
+2025-07-05 15:12:08,957 - core.movie_finder - INFO - 📝 Generating summary...
+2025-07-05 15:12:11,375 - core.movie_finder - INFO - ✅ Summary generated successfully
+Hey there!  So you're looking for movies from 2010.  Okay, that's a much clearer request than before!  Unfortunately, the system I'm using to pull movie data seems to be having some trouble accessing and correctly filtering information by year.  The list I initially received included some classic films that are definitely *not* from 2010.  This suggests a problem with the database I'm accessing, not with your request.
+
+
+To help you, I'll need to do some manual searching.  In the meantime, could you tell me a little more about your preferences?  This will help me find some great 2010 movies for you, even if the automated search isn't working perfectly right now.
+
+
+For example, are you interested in a particular genre (action, comedy, drama, etc.)?  Or are there any specific actors or directors you like?  Knowing this will help me make some solid recommendations.
+
+
+Once I have a bit more information, I'll get back to you with some fantastic movie suggestions from 2010.  Thanks for your patience!
+2025-07-05 15:12:11,376 - core.movie_finder - INFO - ✅ Filter search completed: 10 results
+2025-07-05 15:12:11,376 - core.movie_finder - INFO - ✅ Query processed successfully using filter strategy
+2025-07-05 15:12:11,377 - __main__ - INFO - ✅ Query successful
+2025-07-05 15:12:11,377 - __main__ - INFO - ✅ System tests passed!
+2025-07-05 15:12:11,379 - __main__ - ERROR - ❌ Failed to save system state: cannot pickle 'module' object
+2025-07-05 15:12:11,381 - __main__ - INFO - 📝 Setup status saved to cache\setup_status.json
+2025-07-05 15:12:11,381 - __main__ - INFO - 🎉 System initialized successfully in 385.10 seconds!
+2025-07-05 15:21:53,681 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:21:53,682 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:21:56,220 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:21:56,220 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:21:56,301 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:21:56,302 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 15:22:28,050 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 15:25:58,801 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 documents
+2025-07-05 15:25:58,855 - core.movie_finder - INFO - ✅ Vector store initialized successfully
+2025-07-05 15:25:58,913 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-05 15:25:58,965 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-05 15:25:59,029 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-05 15:25:59,089 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-05 15:25:59,090 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:25:59,090 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:26:00,057 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:26:00,065 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:26:00,096 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:26:00,114 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 15:26:06,142 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 15:29:15,205 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 documents
+2025-07-05 15:29:15,207 - core.movie_finder - INFO - ✅ Vector store initialized successfully
+2025-07-05 15:29:15,208 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-05 15:29:15,209 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-05 15:29:15,209 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-05 15:29:15,246 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-05 15:29:56,125 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:29:56,126 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:29:58,729 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:29:58,730 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:29:58,794 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:29:58,794 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 15:30:25,618 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 15:32:41,524 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 documents
+2025-07-05 15:32:41,526 - core.movie_finder - INFO - ✅ Vector store initialized successfully
+2025-07-05 15:32:41,526 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-05 15:32:41,526 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-05 15:32:41,527 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-05 15:32:41,536 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-05 15:32:41,536 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:32:41,537 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:32:43,992 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:32:43,992 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:32:43,999 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:32:44,000 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 15:32:49,330 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 15:34:14,922 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 documents
+2025-07-05 15:34:14,925 - core.movie_finder - INFO - ✅ Vector store initialized successfully
+2025-07-05 15:34:14,926 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-05 15:34:14,928 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-05 15:34:14,930 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-05 15:34:14,947 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-05 15:47:01,627 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:47:01,628 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:47:03,805 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:47:03,805 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:47:03,932 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:47:03,932 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 15:47:34,700 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 15:48:08,276 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:48:08,277 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:48:12,514 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:48:12,520 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:48:13,300 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:48:13,302 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 15:48:43,085 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 15:51:15,746 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 documents
+2025-07-05 15:51:15,749 - core.movie_finder - INFO - ✅ Vector store initialized successfully
+2025-07-05 15:51:15,750 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-05 15:51:15,750 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-05 15:51:15,751 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-05 15:51:15,765 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-05 15:51:15,767 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:51:15,768 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:51:19,122 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:51:19,125 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:51:19,143 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:51:19,144 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 15:51:24,752 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 15:55:18,625 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 documents
+2025-07-05 15:55:18,685 - core.movie_finder - INFO - ✅ Vector store initialized successfully
+2025-07-05 15:55:18,687 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-05 15:55:18,690 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-05 15:55:18,691 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-05 15:55:18,782 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-05 15:55:54,164 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:55:54,165 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:55:57,290 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:55:57,291 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:55:57,369 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:55:57,370 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 15:56:30,253 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 15:59:48,361 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 15:59:48,362 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 15:59:49,856 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 15:59:49,856 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 15:59:49,913 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 15:59:49,913 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 16:00:13,021 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 16:01:19,673 - core.movie_finder - INFO - 🚀 Initializing Enhanced Movie Finder System...
+2025-07-05 16:01:19,673 - core.movie_finder - INFO - 📊 Loading dataset...
+2025-07-05 16:01:22,185 - core.movie_finder - INFO - ✅ Dataset loaded: 1000 movies
+2025-07-05 16:01:22,185 - core.movie_finder - INFO - 🤖 Loading LLM...
+2025-07-05 16:01:22,233 - core.movie_finder - INFO - ✅ LLM loaded successfully
+2025-07-05 16:01:22,233 - core.movie_finder - INFO - 🔧 Initializing vector store...
+2025-07-05 16:01:44,272 - core.vector_store - INFO - 🔧 Building enhanced vector store...
+2025-07-05 16:04:02,779 - core.vector_store - INFO - ✅ Vector store built successfully with 1000 documents
+2025-07-05 16:04:02,782 - core.movie_finder - INFO - ✅ Vector store initialized successfully
+2025-07-05 16:04:02,783 - core.movie_finder - INFO - 🧠 Initializing semantic processor...
+2025-07-05 16:04:02,783 - core.movie_finder - INFO - ✅ Semantic processor initialized successfully
+2025-07-05 16:04:02,784 - core.movie_finder - INFO - ⛓️ Initializing agent chains...
+2025-07-05 16:04:02,794 - core.movie_finder - INFO - ✅ All chains initialized successfully
+2025-07-05 16:04:28,151 - core.movie_finder - INFO - 🎬 Processing query: top 5 action movie
+2025-07-05 16:04:28,152 - core.movie_finder - INFO - 🎯 Selected search strategy: hybrid
+2025-07-05 16:04:28,172 - core.movie_finder - INFO - 🔄 Performing hybrid search...
+2025-07-05 16:04:28,199 - agents.semantic_agent - INFO - 🔍 Processing semantic query: top 5 action movie
+2025-07-05 16:04:28,360 - core.movie_finder - INFO - 🎬 Processing query: top 5 action movie
+2025-07-05 16:04:28,362 - core.movie_finder - INFO - 🎯 Selected search strategy: hybrid
+2025-07-05 16:04:28,364 - core.movie_finder - INFO - 🔄 Performing hybrid search...
+2025-07-05 16:04:28,364 - agents.semantic_agent - INFO - 🔍 Processing semantic query: top 5 action movie
+2025-07-05 16:04:30,696 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-05 16:04:31,970 - core.movie_finder - INFO - 🔍 Performing semantic search...
+2025-07-05 16:04:31,971 - agents.semantic_agent - INFO - 🔍 Processing semantic query: top 5 action movie
+2025-07-05 16:04:32,694 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-05 16:04:32,927 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-05 16:04:32,928 - core.movie_finder - INFO - 📝 Contextual query: I'm looking for a list of five critically acclaimed or popular action movies known for their thrilling sequences, intense action, and memorable characters. | Key themes: action, movie, adventure, thriller
+2025-07-05 16:04:32,928 - core.movie_finder - INFO - 🎯 Search strategy: recommendation
+2025-07-05 16:04:32,938 - core.vector_store - INFO - 🔍 Performing semantic search for: I'm looking for a list of five critically acclaimed or popular action movies known for their thrilling sequences, intense action, and memorable characters. | Key themes: action, movie, adventure, thriller
+2025-07-05 16:04:33,079 - core.vector_store - INFO - ✅ Found 20 relevant movies as semantic
+2025-07-05 16:04:33,103 - core.vector_store - INFO - ✅ Found 20 relevant movies
+2025-07-05 16:04:33,103 - core.movie_finder - INFO - 📝 Generating summary...
+2025-07-05 16:04:34,721 - core.movie_finder - INFO - 🔍 Performing semantic search...
+2025-07-05 16:04:34,723 - agents.semantic_agent - INFO - 🔍 Processing semantic query: top 5 action movie
+2025-07-05 16:04:36,893 - agents.semantic_agent - INFO - ✅ Semantic processing completed
+2025-07-05 16:04:36,893 - core.movie_finder - INFO - 📝 Contextual query: I'm looking for a list of the five highest-rated action films, known for their thrilling sequences, intense action, and compelling narratives. | Key themes: action, movie, adventure, thriller
+2025-07-05 16:04:36,894 - core.movie_finder - INFO - 🎯 Search strategy: recommendation
+2025-07-05 16:04:36,896 - core.vector_store - INFO - 🔍 Performing semantic search for: I'm looking for a list of the five highest-rated action films, known for their thrilling sequences, intense action, and compelling narratives. | Key themes: action, movie, adventure, thriller
+2025-07-05 16:04:36,971 - core.vector_store - INFO - ✅ Found 20 relevant movies as semantic
+2025-07-05 16:04:37,012 - core.vector_store - INFO - ✅ Found 20 relevant movies
+2025-07-05 16:04:37,014 - core.movie_finder - INFO - 📝 Generating summary...
+2025-07-05 16:04:37,385 - core.movie_finder - INFO - ✅ Summary generated successfully
+Hey there!  So you're looking for the top 5 action movies, huh?  I've got some results, but I noticed something interesting – the initial search returned more thrillers and crime dramas than pure action flicks.  This might be because "action movie" is pretty broad. To help me give you the *best* recommendations, could you tell me a little more about what kind of action you're in the mood for?  For example:
+
+* **What kind of action?**  (e.g.,  guns blazing, martial arts, car chases, sci-fi action, superhero action, etc.)
+* **What's your preferred rating?** (e.g.,  above 7.5, only critically acclaimed films, etc.)
+* **Any actors or directors you particularly like?**
+
+This will help me narrow down the search and find you some real action-packed gems!
+
+In the meantime, based on the initial search, here are a few of the titles that *have* some action elements, though they might lean more towards thriller/crime:
+
+
+* **The Usual Suspects (1995) - Rating: 8.5:** This is a highly-rated crime thriller with some intense scenes, though it's more about suspense and twists than non-stop action.  It stars Kevin Spacey, Gabriel Byrne, and Chazz Palminteri.
+
+* **Eskiya (1996) - Rating: 8.2:** A crime drama with elements of action, focusing on vengeance and a bandit's journey.  While it has action sequences, it's more character-driven.
+
+While the other movies found have compelling plots and high ratings, they aren't primarily action films.  I really want to get you the perfect list!  Just give me a little more information, and I'll be happy to refine the search.
+2025-07-05 16:04:37,389 - core.movie_finder - INFO - ✅ Semantic search completed: 10 results
+2025-07-05 16:04:37,391 - core.movie_finder - INFO - ✅ Query processed successfully using hybrid strategy
+2025-07-05 16:04:39,897 - core.movie_finder - INFO - ✅ Summary generated successfully
+Hey there!  So you're looking for the top 5 action movies, huh?  I found a few, but to be honest, the initial search results weren't perfectly aligned with a pure "action" focus.  It seems we need to refine your request a little.
+
+Of the results I got, only one is a truly strong action film:
+
+* **Skyfall (2012):** Rating: 7.7 | Genre: Action, Adventure, Thriller | Director: Sam Mendes | Cast: Daniel Craig, Javier Bardem, Naomie Harris.  This is a classic James Bond film, so expect plenty of thrilling action sequences, gadgets, and espionage.  It's a solid choice if you're looking for straightforward action.
+
+The other movies are more focused on drama, thriller, or even comedy elements, with action scenes incorporated but not as the central focus.  To help me give you a better list, could you tell me a bit more about what kind of action movies you enjoy?  For example:
+
+* **What kind of action are you looking for?** (e.g., gun-fu, martial arts, spy thrillers, disaster movies, superhero flicks, etc.)
+* **Do you prefer a specific setting or time period?** (e.g., futuristic, historical, modern-day, etc.)
+* **Are there any particular actors or directors you like?**
+
+The more detail you can give me, the better I can tailor the recommendations to your preferences and get you that perfect top 5 action movie list!  Let's find you some awesome movies to watch.
+2025-07-05 16:04:39,929 - core.movie_finder - INFO - ✅ Semantic search completed: 10 results
+2025-07-05 16:04:39,929 - core.movie_finder - INFO - ✅ Query processed successfully using hybrid strategy
