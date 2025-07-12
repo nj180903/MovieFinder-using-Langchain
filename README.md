@@ -1,6 +1,7 @@
 # 🎬 LangChain IMDb Multi-Agent Movie Finder
 
 A movie recommendation system that uses LangChain, LLMs, and vector search to find movies based on natural language queries with conversation history and context awareness.
+<img width="1279" height="552" alt="image" src="https://github.com/user-attachments/assets/088f9bb8-ef77-4538-9463-3fee3e979a54" />
 
 ## 🚀 Features
 
