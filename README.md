@@ -249,6 +249,9 @@ This implementation provides a comprehensive movie recommendation system that co
 
 ## Architecture
 
+
+<img width="652" height="500" alt="image" src="https://github.com/user-attachments/assets/91808d58-a9a0-46ce-bbd6-7141a833db07" />
+
 ```
 User Query
     ↓
