@@ -1,8 +1,12 @@
+
+
 import streamlit as st
 import os
 import sys
 from pathlib import Path
-
+import pysqlite3
+import sys
+sys.modules["sqlite3"] = pysqlite3
 # Add the current directory to the Python path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
